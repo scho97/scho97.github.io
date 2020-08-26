@@ -1,0 +1,19 @@
+# 1. mod_rewrite starts here
+
+RewriteEnginge on
+
+# 2. Conditions for rewriting the URL
+
+RewriteCond %{REQUEST_FILENAME} !-d
+# make sure that rules do not apply to existing directories, i.e. if the folder exists on the server, then do not run the rules and change anything
+
+RewriteCond %{REQUEST_FILENAME}/.html -f
+# check for files in the directory with .html extension
+
+# 3. Rules for rewriting the URL
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# Given that the conditions above are true, show the URL without .html extension
+# NC: URL is case insensitive
+# L: The conditions we have before the specific rule will not account for the later rules
