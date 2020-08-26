@@ -7,12 +7,11 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 # make sure that rules do not apply to existing directories, i.e. if the folder exists on the server, then do not run the rules and change anything
 
-RewriteCond %{REQUEST_FILENAME}\.html -f
-# check for files in the directory with .html extension
+RewriteCond %{REQUEST_FILENAME} !-f
 
 # 3. Rules for rewriting the URL
 
-RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteRule ^(.*)\.html$ /$1 [NC,L]
 
 # Given that the conditions above are true, show the URL without .html extension
 # NC: URL is case insensitive
