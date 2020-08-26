@@ -1,6 +1,6 @@
 # 1. mod_rewrite starts here
 
-RewriteEnginge on
+RewriteEngine on
 
 # 2. Conditions for rewriting the URL
 
