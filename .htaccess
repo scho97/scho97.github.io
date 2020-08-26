@@ -7,7 +7,7 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 # make sure that rules do not apply to existing directories, i.e. if the folder exists on the server, then do not run the rules and change anything
 
-RewriteCond %{REQUEST_FILENAME}/.html -f
+RewriteCond %{REQUEST_FILENAME}\.html -f
 # check for files in the directory with .html extension
 
 # 3. Rules for rewriting the URL
