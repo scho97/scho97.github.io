@@ -2687,6 +2687,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1rem;
 		padding-left: 0;
+		text-align: left;
 	}
 
 		ul.actions li {
@@ -2716,7 +2717,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 0 0 0 0;
+				padding: 1.3rem 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
