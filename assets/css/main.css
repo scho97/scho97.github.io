@@ -3236,7 +3236,7 @@ input, select, textarea {
 			background-color: transparent;
 			background-image: url("../../images/wallpaper.jpg");
 			background-size: 100% auto;
-			background-position: top center;
+			background-position: center;
 			background-repeat: no-repeat;
 			background-attachment: scroll;
 			z-index: -1;
@@ -4385,7 +4385,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.8);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
