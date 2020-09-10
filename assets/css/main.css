@@ -2693,6 +2693,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
+			text-align: left;
 		}
 
 		ul.actions.special {
