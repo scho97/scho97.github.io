@@ -2932,7 +2932,6 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
-			text-align: center;
 			font-size: 1rem;
 			margin-top: -0.75rem;
 		}
@@ -2949,7 +2948,7 @@ input, select, textarea {
 		
 		header.ontheleft {
 			text_align: left;
-			margin: 0 0 4rem 0;
+			margin: 0 0 2rem 0;
 		}
 
 		header.major {
@@ -3801,8 +3800,7 @@ input, select, textarea {
 			}
 			
 			#main > .post header.ontheleft h2 {
-				text-align: center;
-				font-size: 4rem;
+				text-align: left;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
