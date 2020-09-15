@@ -3798,7 +3798,14 @@ input, select, textarea {
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
-
+			
+			#main > .post header.ontheleft {
+				text-align: center;
+				font-size: 4rem;
+				line-height: 1.1;
+				margin: 0 0 2rem 0;
+			}
+			
 			#main > .post.featured {
 				text-align: center;
 			}
