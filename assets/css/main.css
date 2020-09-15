@@ -2932,6 +2932,7 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
+			text-align: center;
 			font-size: 1rem;
 			margin-top: -0.75rem;
 		}
