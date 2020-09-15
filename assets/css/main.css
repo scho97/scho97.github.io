@@ -3799,7 +3799,7 @@ input, select, textarea {
 				margin: 0 0 2rem 0;
 			}
 			
-			#main > .post header.ontheleft {
+			#main > .post header.ontheleft h2 {
 				text-align: center;
 				font-size: 4rem;
 				line-height: 1.1;
