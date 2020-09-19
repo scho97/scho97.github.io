@@ -2948,7 +2948,7 @@ input, select, textarea {
 		
 		header.ontheleft {
 			text_align: left;
-			margin: 0 0 2rem 0;
+			margin: 0 0 1rem 0;
 		}
 
 		header.major {
