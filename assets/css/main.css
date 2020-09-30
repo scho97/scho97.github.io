@@ -2629,9 +2629,9 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 300px;
-				height: 200px;
-				object-fit: contain;
+				width: 100vw;
+				height: 50vh;
+				object-fit: cover;
 				object-position: 50% 50%;
 			}
 
