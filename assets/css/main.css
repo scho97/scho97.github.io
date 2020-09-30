@@ -2629,8 +2629,7 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: auto;
-				height: 100%;
+				max-width: 100%;
 			}
 
 		.image.main {
