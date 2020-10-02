@@ -62,7 +62,8 @@
 				<p>Takens' theorem (or the delayed embedding theorem) states that the attractor manifold of a dynamical system can be reconstructed from a single observation variable. For example, given an observation function \(X(t)\) and its lagged-coordinate functions \(X(t-\tau), ..., X(t-n\tau)\) where \(n\in\mathbb{N}\), a shadow manifold \(M_X\) can be reconstructed based on those functions whereby the reconstructed manifold \(M_X\) preserves the essential mathematical properties (e.g. topology) of the common manifold \(M\).
 				Hence, there is a bijection (i.e. 1:1 mapping) between the shadow manifold and the original manifold attractor. Given the time-series variables \(X\) and \(Y\), \(M_X\) and \(M_Y\) will 1:1 map to \(M\), and therefore \(M_X\) can be bijectively mapped to \(M_Y\). The definition of Takens' theorem can be found below.</p>
 				<div class="image"><img src="../images/ccm1.png" alt="" /></div>
-				<h3>Definition (adapted from [1])</h3>
+				<p>(Image from Sugihara et al., 2012)</p>
+				<h4>Definition (adapted from [1])</h4>
 				<p>Let \(M\) be a compact manifold of dimension \(d\), \(\Phi\) a smooth vector filed, and \(X\) a smooth function on \(M\). Then, it is a generic property that there exists an embedding $$\Phi_{\phi,X}(m):M \rightarrow \mathbb{R}^{2d+1}$$ where \(\phi\) is the flow on \(M\) and $$\Phi_{\phi,X}(m) = \langle X(m),X(\phi(m)),X(\phi^2(m)),...,X(\phi^{2d}(m)) \rangle$$</p>
 				
 				<h2>The Outline of Algorithm</h2>
