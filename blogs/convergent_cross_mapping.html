@@ -53,18 +53,31 @@
 					<span class="date">October 2, 2020</span>
 					<h1>Convergent Cross Mapping Algorithm</h1>
 				</header>
+				
 				<h2>Definition of Convergent Cross Mapping (CCM)</h2>
 				<p>That correlation does not imply and is not a necessary and sufficient condition for causation is a well-established idea in science. Identifying causal relationships in time series is a challenging task, especially if the underlying complex systems are nonlinear and temporally lagged. Along with the Granger causality (GC) and phase slope index, one of the methods that can address such causality in complex systems is called convergent cross mapping (CCM).</p>
 				<p>CCM is a statistical method for inferring causality based on nonlinear state space reconstruction [1]. Simply, consider two time-series variables X and Y. In dynamical systems theory, if X and Y are from same dynamic system, then these two time-series variables are causally related and share a common attractor manifold M [1].  By characterizing correspondence between the shadow manifolds that are reconstructed from lagged coordinates of each time series, nonlinear interactions between time series X and Y can be defined [2]. That is, because the state of one variable can be identified (i.e. recovered) by that of another, CCM uses the estimate value of Y from the shadow manifold X and the estimate value of X from the shadow manifold Y to quantify the causal relationship between the two variables.</p>
+				
 				<h2>Takens' Theorem (1981)</h2>
 				<p>Takens' theorem (or the delayed embedding theorem) states that the attractor manifold of a dynamical system can be reconstructed from a single observation variable. For example, given an observation function \(X(t)\) and its lagged-coordinate functions \(X(t-\tau), ..., X(t-n\tau)\) where \(n\in\mathbb{N}\), a shadow manifold \(M_X\) can be reconstructed based on those functions whereby the reconstructed manifold \(M_X\) preserves the essential mathematical properties (e.g. topology) of the common manifold \(M\).
 				Hence, there is a bijection (i.e. 1:1 mapping) between the shadow manifold and the original manifold attractor. Given the time-series variables \(X\) and \(Y\), \(M_X\) and \(M_Y\) will 1:1 map to \(M\), and therefore \(M_X\) can be bijectively ampped to \(M_Y\). The definition of Takens' theorem can be found below.</p>
 				<div class="image main"><img src="../images/ccm1.png" alt="" /></div>
-				<h3>Definition (adpated from [1])</h3>
-				<p>Let \(M\) be a compact manifold of dimension \(d\), \(\Phi\) a smooth vector filed, and \(X\) a smooth function on \(M\). Then, it is a generic property that there exists an embedding $$\Phi_{\phi,X}(m):M \rightarrow \mathbb{R}^{2d+1}$$ where \(\phi\) is the flow on \(M\) and $$\Phi_{\phi,X}(m) = \left<X(m)\right>$$</p>
+				<h3>Definition (adapted from [1])</h3>
+				<p>Let \(M\) be a compact manifold of dimension \(d\), \(\Phi\) a smooth vector filed, and \(X\) a smooth function on \(M\). Then, it is a generic property that there exists an embedding $$\Phi_{\phi,X}(m):M \rightarrow \mathbb{R}^{2d+1}$$ where \(\phi\) is the flow on \(M\) and $$\Phi_{\phi,X}(m) = \langle X(m),X(\phi(m)),X(\phi^2(m)),...,X(\phi^{2d}(m)) \rangle$$</p>
+				
 				<h2>The Outline of Algorithm</h2>
+				<p>The CCM algorithm can be simplified in a five step process. Written below are taken from [3], but you can further read about the algorithm on [2] or <a href="https://en.wikipedia.org/wiki/Convergent_cross_mapping">Wikipedia page</a>. </br>
+				STEP 1: Create the shadow manifold for \(X\), namely \(M_X\) </br>
+				STEP 2: Find the nearest neighbors to a point in the shadow manifold at time \(t\) </br>
+				STEP 3: Create weights using the nearest neighbors </br>
+				STEP 4: Estimate \(Y\) using the weights (the resulting cross-map estimate is denoted as \(\hat{Y_t}|M_X\)) </br>
+				STEP 5: Compute the correlation \(\rho\) between \(Y\) and \(\hat{Y_t}|M_X\)
+				</p>
+				
 				<h2>CCM vs. Granger Causality</h2>
+
 				<h2>Applications to Neuroscience</h2>
+
 				<h2>References</h2>
 				<ul>
 					<li>[1] Sugihara G., May R., Ye H., Hsieh C., Deyle E., Fogarty M., Munch S. (2012). Detecting Causality in Complex Ecosystems. Science, 338: 396-500.</li>
