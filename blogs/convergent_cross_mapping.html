@@ -81,6 +81,8 @@
 				It is less effective when it comes to deterministic dynamical systems with weak to moderate coupling and systems in which causal variables are non-separable (i.e. have synergistic effects) [1]. Unlike GC, CCM can be applied to detect variables with weak interactions and identify non-separable systems, as well as to distinguish interactions among observation variables (e.g. neuronal regions or ecological species) from the effects of shared, external driving variables.</p>
 
 				<h2>Applications to Neuroscience</h2>
+				<p>The application of CCM to neuroscience is rather uncommon. Given that neural signals are often, if not always, nonstationary and stochastic, I am also hesitant to implement CCM (which has been argued to be more effective for deterministic systems) to investigate interactions between neural components. Based on my search, there were a few literatures that have employed CCM for their data analysis. [4] used CCM method extended to delayed causal effects (cf. [5]) to evaluate causal relationship between local field potential and intrinsic optical signal in epileptiform activity. Interestingly, other papers that used CCM also studied epilepsy as their model. 
+				In [2] and [6], CCM was applied on the intrinsic mode functions (IMFs) of EEG signals, which had their artifacts removed by independent component analysis (ICA) and were decomposed to IMFs via multivariate empirical mode decomposition. As of now, I am not completely sure if applying CCM to IMFs will provide more reliable analysis about the neuroscientific systems of our interest. Hopefully, I will be able to elaborate more on this part after looking at the Hilbert-Huang transform and other associated details.</p>
 
 				<h2>References</h2>
 				<ul>
