@@ -3883,6 +3883,10 @@ input, select, textarea {
 				text-align: center;
 			}
 
+				#main > .posts > article > p {
+					font-size: 50%
+				}
+
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
 				}
