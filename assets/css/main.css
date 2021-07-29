@@ -3229,7 +3229,7 @@ input, select, textarea {
 	    -webkit-transition: opacity 0.5s ease;
 	    -ms-transition: opacity 0.5s ease;
 	    transition: opacity 0.5s ease;
-	    position: fixed;
+	    position: relative;
 	    top: 0;
 	    left: 0;
 	    z-index: 1;
