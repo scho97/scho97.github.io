@@ -3235,7 +3235,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
+		/*#wrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -3262,7 +3262,7 @@ input, select, textarea {
 				background-size: auto,								auto,														auto 175%;
 			}
 
-		}
+		}*?
 
 /* Intro */
 
