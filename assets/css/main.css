@@ -4,7 +4,6 @@
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -3239,7 +3238,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
-			max-width: 1680px;
+			max-width: 4000px;
 			height: 100%;
 			background-image: url("../../images/wallpaper.jpg");
 			background-color: transparent;
