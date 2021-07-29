@@ -3235,18 +3235,18 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		/*#wrapper > .bg {
+		#wrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
 			max-width: 100%;
 			height: auto;
 			background-color: transparent;
-			background-image: url("../../images/wallpaper.jpg");
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-attachment: scroll;
+			background-image: url("../../images/overlay.png") url("../../images/wallpaper.jpg");
+			background-size: auto, 100% auto;
+			background-position: center, top center;
+			background-repeat: repeat, no-repeat;
+			background-attachment: scroll, scroll;
 			z-index: -1;
 		}
 
@@ -3262,7 +3262,7 @@ input, select, textarea {
 				background-size: auto,								auto,														auto 175%;
 			}
 
-		}*?
+		}
 
 /* Intro */
 
