@@ -3239,7 +3239,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
-			max-width: 100%;
+			width: auto;
 			height: auto;
 			background-color: transparent;
 			background-image: url("../../images/wallpaper.jpg");
