@@ -3238,7 +3238,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
-			max-width: 4000px;
+			min-width: 4000px;
 			height: 100%;
 			background-image: url("../../images/wallpaper.jpg");
 			background-color: transparent;
