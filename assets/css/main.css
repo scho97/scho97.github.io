@@ -3250,11 +3250,11 @@ input, select, textarea {
 			z-index: -1;
 		}
 
-			#wrapper > .bg.fixed {
+			/*#wrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
 				height: 100vh;
-			}
+			}*/
 
 		/*@media screen and (orientation: portrait) {
 
