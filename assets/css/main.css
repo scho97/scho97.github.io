@@ -3230,7 +3230,7 @@ input, select, textarea {
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
-		position: absolute;
+		position: relative;
 		z-index: 1;
 		overflow: hidden;
 	}
@@ -3255,31 +3255,6 @@ input, select, textarea {
 				width: 100vw;
 				height: 100vh;
 			}
-
-		#wrapper.fade-in:before {
-			pointer-events: none;
-			-moz-transition: opacity 1s ease-in-out;
-			-webkit-transition: opacity 1s ease-in-out;
-			-ms-transition: opacity 1s ease-in-out;
-			transition: opacity 1s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
-			background: #1e252d;
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: relative;
-			top: 0;
-			width: 100%;
-		}
-
-		body.is-preload #wrapper.fade-in:before {
-			opacity: 1;
-		}
 
 		@media screen and (orientation: portrait) {
 
