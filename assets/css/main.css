@@ -3242,7 +3242,7 @@ input, select, textarea {
 			max-width: 100%;
 			height: auto;
 			background-color: transparent;
-			background-image: url("../../images/overlay.png") url("../../images/wallpaper.jpg");
+			background-image: url("../../images/overlay.png"), url("../../images/wallpaper.jpg");
 			background-size: auto, 100% auto;
 			background-position: center, top center;
 			background-repeat: repeat, no-repeat;
