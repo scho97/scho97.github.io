@@ -3243,7 +3243,7 @@ input, select, textarea {
 			height: auto;
 			background-color: transparent;
 			background-image: url("../../images/wallpaper.jpg");
-			background-size: auto;
+			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-attachment: scroll;
