@@ -3236,6 +3236,11 @@ input, select, textarea {
 	}
 
 		#wrapper > .bg {
+			position: absolute;
+			top: 0;
+			bottom:0;
+			height: 100%;
+			width: 100%;
 			background-color: transparent;
 			background-image: url("../../images/wallpaper.jpg");
 			background-size: cover;
