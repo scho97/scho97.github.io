@@ -3256,13 +3256,13 @@ input, select, textarea {
 				height: 100vh;
 			}
 
-		@media screen and (orientation: portrait) {
+		/*@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
 				background-size: cover;
 			}
 
-		}
+		}*/
 
 /* Intro */
 
