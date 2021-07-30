@@ -3230,6 +3230,9 @@ input, select, textarea {
 
 	body {
 		background-image: url(../../images/wallpaper.jpg);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 	  	background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -3246,11 +3249,6 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-	@media screen and (orientation: portrait) {
-		body {
-			height: 100vh;
-		}
-	}
 
 		/*#wrapper > .bg {
 			position: fixed;
