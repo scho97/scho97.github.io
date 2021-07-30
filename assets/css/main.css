@@ -3225,7 +3225,8 @@ input, select, textarea {
 /* Wrapper */
 
 	body {
-	  	background-image: url(../../images/wallpaper.jpg);
+	  	height: 100%;
+		background-image: url(../../images/wallpaper.jpg);
 	  	background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
