@@ -3224,13 +3224,16 @@ input, select, textarea {
 
 /* Wrapper */
 
+	html {
+		margin: 0;
+		padding: 0;
+	}
+
 	html, body{
 		height: 100%;
 	}
 
 	body {
-		top: 0;
-		left: 0;
 		background-image: url(../../images/wallpaper.jpg);
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
