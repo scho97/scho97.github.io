@@ -3225,8 +3225,10 @@ input, select, textarea {
 /* Wrapper */
 
 	body {
-	  background-image: url(../../images/wallpaper.jpg);
-	  background-size: cover;
+	  	background-image: url(../../images/wallpaper.jpg);
+	  	background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 	}
 
 	#wrapper {
