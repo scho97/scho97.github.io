@@ -3239,23 +3239,6 @@ input, select, textarea {
 		background-attachment: fixed;
 	}
 
-	@media screen and (max-width: 980px) {
-		body {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-image: url(../../images/wallpaper.jpg);
-			background-repeat: no-repeat;
-			background-position: center center;
-			background-size: cover;
-			background-attachment: scroll;
-			will-change: transform;
-			z-index: -1;
-		}
-	}
-
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
