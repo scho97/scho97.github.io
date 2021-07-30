@@ -3224,6 +3224,11 @@ input, select, textarea {
 
 /* Wrapper */
 
+	body {
+	  background-image: url(../../images/wallpaper.jpg);
+	  background-size: cover;
+	}
+
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
@@ -3234,7 +3239,7 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
+		/*#wrapper > .bg {
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -3246,7 +3251,7 @@ input, select, textarea {
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-attachment: scroll;
-			/*will-change: transform;*/
+			/*will-change: transform;
 			z-index: -1;
 		}
 
@@ -3254,7 +3259,7 @@ input, select, textarea {
 				position: fixed;
 				width: 100vw;
 				height: 100vh;
-			}
+			}*/
 
 		/*@media screen and (orientation: portrait) {
 
