@@ -3249,6 +3249,12 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
+	@media screen and (orientation: portrait){
+		body {
+			background-attachment: scroll;
+		}
+	}
+
 
 		/*#wrapper > .bg {
 			position: fixed;
