@@ -3250,6 +3250,7 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-position: center center;
 			background-size: cover;
+			background-attachment: scroll;
 			will-change: transform;
 			z-index: -1;
 		}
