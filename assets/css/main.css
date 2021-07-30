@@ -3252,9 +3252,12 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 		body {
 			position: fixed;
-			background-attachment: scroll;
 			top: 0;
 			left: 0;
+			background: url(../../images/wallpaper.jpg) no-repeat center center;
+			background-size: cover;
+			will-change: transform;
+			z-index: -1;
 		}
 	}
 
