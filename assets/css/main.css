@@ -3223,7 +3223,11 @@ input, select, textarea {
 	}
 
 /* Wrapper */
-
+	
+	html, body{
+		height: 100%
+	}
+	
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
