@@ -3250,8 +3250,8 @@ input, select, textarea {
 	}
 
 	@media screen and (orientation: portrait){
-		body {
-			background-attachment: scroll;
+		html, body {
+			height: 100vh;
 		}
 	}
 
