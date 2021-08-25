@@ -2855,6 +2855,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5rem;
+			text-align: justify;
 		}
 
 		ul.divided {
