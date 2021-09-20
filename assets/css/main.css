@@ -2699,6 +2699,16 @@ input, select, textarea {
 			text-align: left;
 		}
 
+		ul.actions.box {
+			margin-left: 0;
+		}
+
+			ul.actions.box li {
+				padding: 0 0 0 0;
+				vertical-align: baseline;
+				text-align: right;
+			}
+
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
