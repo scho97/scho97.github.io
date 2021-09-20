@@ -2699,11 +2699,12 @@ input, select, textarea {
 			text-align: left;
 		}
 
-		ul.actions.box {
+		ul.actions.in-box {
 			margin-left: 0;
+			text-align: right;
 		}
 
-			ul.actions.box li {
+			ul.actions.in-box li {
 				padding: 0 0 0 0;
 				vertical-align: baseline;
 				text-align: right;
