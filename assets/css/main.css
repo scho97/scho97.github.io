@@ -2607,6 +2607,7 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
+				object-fit: contain;
 			}
 
 		.image.left {
@@ -2698,17 +2699,6 @@ input, select, textarea {
 			vertical-align: middle;
 			text-align: left;
 		}
-
-		ul.actions.in-box {
-			margin-left: 0;
-			text-align: right;
-		}
-
-			ul.actions.in-box li {
-				padding: 0 0 0 0;
-				vertical-align: baseline;
-				text-align: right;
-			}
 
 		ul.actions.special {
 			-moz-justify-content: center;
