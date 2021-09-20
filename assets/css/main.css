@@ -286,6 +286,10 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.align-justify {
+		text-align: justify;
+	}
+
 	input, select, textarea {
 		color: #212931;
 	}
