@@ -2849,11 +2849,12 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25rem;
+			text-align: justify;
 		}
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: -2rem 0 2rem 0;
 		padding-left: 1rem;
 	}
 
