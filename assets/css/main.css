@@ -2852,6 +2852,16 @@ input, select, textarea {
 			text-align: justify;
 		}
 
+		ol.paragraph {
+			list-style: decimal;
+			margin: -1rem 0 1rem 0;
+		}
+
+			ol.paragraph li {
+				padding-left: 0.25rem;
+				text-align: left;
+			}
+
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
@@ -2864,8 +2874,8 @@ input, select, textarea {
 		}
 
 		ul.paragraph {
-			list-style: none;
-			margin: -1rem 0 2rem 0;
+			list-style: disc;
+			margin: -1rem 0 1rem 0;
 		}
 
 			ul.paragraph li {
