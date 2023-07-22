@@ -120,7 +120,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -128,7 +128,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -2972,7 +2972,7 @@ input, select, textarea {
 		}
 		
 		header.ontheleft {
-			text_align: left;
+			text-align: left;
 			margin: 0 0 1rem 0;
 		}
 
@@ -3045,7 +3045,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px;
+			border: none;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -3111,9 +3111,9 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-		table tbody tr:nth-child(2n + 1) {
+		/* table tbody tr:nth-child(2n + 1) {
 			background-color: rgba(220, 220, 220, 0.25);
-		}
+		} */
 
 	table th {
 		color: #212931;
@@ -3758,7 +3758,7 @@ input, select, textarea {
 				}
 
 					#nav ul.links li a:hover {
-						color: inherit !important;
+						color: #18bfef !important;
 						background-color: rgba(255, 255, 255, 0.1);
 					}
 
